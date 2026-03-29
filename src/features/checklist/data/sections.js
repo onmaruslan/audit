@@ -1,0 +1,18 @@
+export const checklistSections = [
+    {id: '1', label: 'Vessel Overview'},
+    {id: '2', label: 'Certificates & Crew'},
+    {id: '3', label: 'Navigation'},
+    {id: '4', label: 'Safety & ISM'},
+    {id: '5', label: 'Pollution Prevention'},
+    {id: '6', label: 'Hull Structure'},
+    {id: '7', label: 'Bunkering & Fuel'},
+    {id: '8', label: 'Bulk Cargo'},
+    {id: '9', label: 'Cargo Gear & Holds'},
+    {id: '10', label: 'Mooring & Anchoring'},
+    {id: '11', label: 'Radio & GMDSS'},
+    {id: '12', label: 'Security'},
+    {id: '13', label: 'Engine Room'},
+    {id: '14', label: 'Deck & External Condition'},
+    {id: '15', label: 'Crew Welfare & MLC'},
+    {id: '17', label: 'STS Operations'},
+]
