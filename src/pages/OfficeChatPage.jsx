@@ -70,7 +70,7 @@ export default function OfficeChatPage() {
     }
 
     return (
-        <Box sx={{py: 3, overflow: 'auto', height: '100%', position: 'relative'}}>
+        <Box sx={{py: 3, pr: 3, overflow: 'auto', height: '100%', position: 'relative'}}>
             <OfficeChatToolbar
                 search={search}
                 setSearch={setSearch}

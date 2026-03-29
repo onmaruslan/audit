@@ -93,7 +93,7 @@ export default function DashboardsPage() {
     }
 
     return (
-        <Stack spacing={3} sx={{py: 3}}>
+        <Stack spacing={3} sx={{py: 3, pr: 3,}}>
             <Box>
                 <Typography variant="h4">Dashboards</Typography>
                 <Typography variant="body2" color="text.secondary" sx={{mt: 0.5}}>

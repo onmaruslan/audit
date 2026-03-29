@@ -1,29 +1,28 @@
 import {createTheme} from '@mui/material/styles'
 
-const theme = createTheme({
-    palette: {
-        mode: 'light',
-        primary: {
-            main: '#1565c0',
+export const getTheme = (mode) =>
+    createTheme({
+        palette: {
+            mode,
+            primary: {
+                main: '#1565c0',
+            },
+            background: {
+                default: mode === 'light' ? '#f5f7fb' : '#121212',
+                paper: mode === 'light' ? '#ffffff' : '#1e1e1e',
+            },
         },
-        background: {
-            default: '#f5f7fb',
-            paper: '#ffffff',
+        shape: {
+            borderRadius: 10,
         },
-    },
-    shape: {
-        borderRadius: 10,
-    },
-    typography: {
-        fontFamily: 'Inter, Roboto, Arial, sans-serif',
-        h6: {
-            fontWeight: 600,
+        typography: {
+            fontFamily: 'Inter, Roboto, Arial, sans-serif',
+            h6: {
+                fontWeight: 600,
+            },
+            button: {
+                textTransform: 'none',
+                fontWeight: 500,
+            },
         },
-        button: {
-            textTransform: 'none',
-            fontWeight: 500,
-        },
-    },
-})
-
-export default theme
+    })

@@ -3,7 +3,7 @@ import Header from './Header'
 import Sidebar from './Sidebar'
 import Footer from './Footer'
 
-export default function AppLayout({children}) {
+export default function AppLayout({children, mode, setMode}) {
     return (
         <Box
             sx={{
@@ -12,7 +12,7 @@ export default function AppLayout({children}) {
                 flexDirection: 'column',
             }}
         >
-            <Header/>
+            <Header mode={mode} setMode={setMode}/>
 
             <Box
                 sx={{
@@ -29,7 +29,7 @@ export default function AppLayout({children}) {
                         flex: 1,
                         minWidth: 0,
                         minHeight: 0,
-                        px: 3,
+                        pl: 3,
                         overflow: 'hidden',
 
                     }}

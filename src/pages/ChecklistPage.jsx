@@ -124,7 +124,7 @@ export default function ChecklistPage() {
                 />
             </Box>
 
-            <Box sx={{flex: 1, minWidth: 0, minHeight: 0, height: '100%', overflow: 'auto', py: 3}}>
+            <Box sx={{flex: 1, minWidth: 0, minHeight: 0, height: '100%', overflow: 'auto', py: 3, pr: 3,}}>
                 <ChecklistToolbar
                     title={selectedSectionLabel}
                     itemsCount={filteredItems.length}

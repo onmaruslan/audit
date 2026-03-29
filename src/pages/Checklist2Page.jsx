@@ -134,7 +134,7 @@ export default function Checklist2Page() {
     }
 
     return (
-        <Box sx={{display: 'flex', gap: 3, height: '100%', py: 3, overflow: 'auto', maxWidth: '100%'}}>
+        <Box sx={{display: 'flex', gap: 3, height: '100%', py: 3, pr: 3, overflow: 'auto', maxWidth: '100%'}}>
             {/* Sections */}
             <Paper
                 sx={{
