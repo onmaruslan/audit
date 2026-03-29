@@ -128,8 +128,8 @@ export const ChecklistDetails = ({selectedItem, statusColorMap, onStatusChange, 
     }
 
     const proposedSolutionImages = [
-        '/images/1.png',
-        '/images/2.png',
+        `${import.meta.env.BASE_URL}images/1.png`,
+        `${import.meta.env.BASE_URL}images/2.png`,
     ]
 
     return (
